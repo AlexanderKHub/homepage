@@ -1,0 +1,36 @@
+header{
+    z-index:2;
+    height:100px;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    padding-left:120px;
+    padding-right:120px;
+    display:flex;
+    align-items:center;
+    
+    background-color:rgba(0,0,0,0.5);
+    
+    img{
+        height:100px;
+        object-fit:cover;
+    }
+
+    a{
+        color:white;
+        text-decoration: none;
+        margin:16px;
+        font-size:24px;
+        &:hover{
+            cursor:pointer;
+            color:rgb(200, 200, 200);
+        }
+    }
+
+    
+}
+
+.spacer{
+    flex:1;
+}
