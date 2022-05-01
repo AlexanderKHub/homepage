@@ -5,7 +5,7 @@ import { SlideshowComponent } from './slideshow/slideshow.component';
 
 const routes: Routes = [
   {path:'', component: SlideshowComponent},
-  {path:'imprint', component: ImprintComponent},
+  {path:'contact', component: ImprintComponent},
 ];
 
 @NgModule({
