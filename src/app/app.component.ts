@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 //import { setTimeout } from 'timers';
 //import { setInterval } from 'timers';
 
@@ -9,5 +10,5 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class AppComponent {
-  
+  constructor(public router: Router){}
 }
