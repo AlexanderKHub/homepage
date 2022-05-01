@@ -10,11 +10,11 @@ header{
     display:flex;
     align-items:center;
     
-    background-color:rgba(0,0,0,0.5);
     
     img{
         height:100px;
         object-fit:cover;
+        border-radius:100%;
     }
 
     a{
@@ -27,10 +27,18 @@ header{
             color:rgb(200, 200, 200);
         }
     }
-
-    
 }
 
 .spacer{
     flex:1;
+}
+
+.dark-links{
+    a{
+        color:black;
+    }
+}
+
+.dark-header{
+    background-color:white;
 }

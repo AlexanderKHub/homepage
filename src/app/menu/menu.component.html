@@ -1,8 +1,10 @@
-<header>
+<header [class.dark-header]="darkMode">
     <img src="assets\img\logo-yellow.png" alt="">
     <div class="spacer"></div>
-    <a href="#">Home</a>
-    <a href="#">Curriculum</a>
-    <a href="#">Projekte</a>
-    <a href="#">Impressum</a>
+    <div [class.dark-links]="darkMode">
+        <a routerLink="">Home</a>
+        <a href="#">Curriculum</a>
+        <a href="#">Projects</a>
+        <a routerLink="imprint">Imprint</a>
+    </div>
 </header>
